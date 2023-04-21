@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ECEFF1 ;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    height: 100vh;
+    background-color: #084D9B ;
+}
+
+.slogan{
+   display: flex;
+   flex-direction: row;
+}
+.logo{
+    width: 4.5rem;
+    height: 4.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.iglesia{
+    padding-left: .5rem;
+    color: white;
+    margin-top: .8rem;
+}
+.cdmx{
+    margin-top: -1rem;
+}
+
+#submenu{
+    display: none;
+    padding-left: 1.3rem;
+    transition: 3s;
+}
+
+.navegando{
+    padding: 1rem;
+    color: white;
+    list-style: none;
+}
+li{
+    margin-top: 1.5rem;
+}
+
+
+.one {
+    transition: 2s;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+.two {
+    transition: 2s;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+.three {
+    transition: 1.5s;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+}
+.four {
+    transition: 1.5s;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+}
+.five {
+    transition: 2s;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+.six {
+    transition: 2s;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+/* Aqui esta el hover para el menu */
+.one:hover{
+    transform: translateX(1em);
+    cursor: pointer;
+    width: 6rem;
+    opacity: .6;
+}
+
+.two:hover{
+    transform: translateX(1em);
+    cursor: pointer;
+    opacity: .6;
+}
+
+.three:hover{
+    transform: translateX(.3em);
+    cursor: pointer;
+    opacity: .6;
+}
+
+.four:hover{
+    transform: translateX(.3em);
+    cursor: pointer;
+    opacity: .6;
+}
+
+.five:hover{
+    transform: translateX(1em);
+    cursor: pointer;
+    opacity: .6;
+}
+
+.six:hover{
+    transform: translateX(1em);
+    cursor: pointer;
+    opacity: .6;
+}
