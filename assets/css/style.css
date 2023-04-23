@@ -1,15 +1,26 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #ECEFF1 ;
+
 }
 
+/* Aqui comienza el estilo del fondo*/
+
+body {
+    background-image: url('/assets/images/fondo2.jpeg');
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(8,79,155,0.7), rgba(8,77,155,1)), url('/assets/images/fondo2.jpeg');
+    background-size: cover;
+  }
+
+/* Aqui inician los estilos del navegador*/
 .navegador{
     display: flex;
     flex-direction: column;
     width: 13rem;
     height: 100vh;
-    background-color: #084D9B ;
+    background-color: #ECEFF1  ;
+    box-shadow: 2px 2px 6px 2px #4D4D4D;
 }
 
 .slogan{
@@ -17,15 +28,18 @@ body{
    flex-direction: row;
 }
 .logo{
-    width: 4.5rem;
-    height: 4.5rem;
-    padding-left: 1rem;
+    width: 4rem;
+    height: 4rem;
+    padding-left: .7rem;
     padding-top: 1rem;
+    border-radius: 40%;
 }
 .iglesia{
     padding-left: .5rem;
-    color: white;
+    color: black;
     margin-top: .8rem;
+    font-family: 'Bruno Ace', cursive;
+
 }
 .cdmx{
     margin-top: -1rem;
@@ -39,79 +53,114 @@ body{
 
 .navegando{
     padding: 1rem;
-    color: white;
+    color: black;
     list-style: none;
 }
 li{
     margin-top: 1.5rem;
 }
 
+/* iconos del nav */
+.envoltura{
+    display: flex;
+    flex-direction: row;
+}
+.home{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.3rem;
+    margin-right: .6rem;
+
+}
 
 .one {
-    transition: 2s;
+    transition: 1.5s;
     margin-bottom: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: 'Nanum Myeongjo', serif;
+
 }
 .two {
-    transition: 2s;
+    transition: 1.5s;
     margin-bottom: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: 'Nanum Myeongjo', serif;
+
 }
 .three {
     transition: 1.5s;
     margin-bottom: .5rem;
-    font-size: 1.1rem;
+    font-size: .9rem;
+    font-family: 'Nanum Myeongjo', serif;
+
 }
 .four {
     transition: 1.5s;
     margin-bottom: .5rem;
-    font-size: 1.1rem;
+    font-size: .9rem;
+    font-family: 'Nanum Myeongjo', serif;
+
 }
 .five {
-    transition: 2s;
+    transition: 1.5s;
     margin-bottom: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: 'Nanum Myeongjo', serif;
+
 }
 .six {
-    transition: 2s;
+    transition: 1.5s;
     margin-bottom: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: 'Nanum Myeongjo', serif;
+
 }
 
 /* Aqui esta el hover para el menu */
+
 .one:hover{
     transform: translateX(1em);
     cursor: pointer;
-    width: 6rem;
-    opacity: .6;
+    width: 9rem;
+    opacity: .4;
+    text-decoration: underline;
+
 }
 
 .two:hover{
-    transform: translateX(1em);
+    transform: translateX(.7em);
     cursor: pointer;
     opacity: .6;
+    text-decoration: underline;
 }
 
 .three:hover{
     transform: translateX(.3em);
     cursor: pointer;
     opacity: .6;
+    
 }
 
 .four:hover{
     transform: translateX(.3em);
     cursor: pointer;
     opacity: .6;
+    
 }
 
 .five:hover{
     transform: translateX(1em);
     cursor: pointer;
     opacity: .6;
+    text-decoration: underline;
 }
 
 .six:hover{
     transform: translateX(1em);
     cursor: pointer;
     opacity: .6;
+    text-decoration: underline;
 }
+
+/* Aqui terminan los estilos del navegador */
+

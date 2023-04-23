@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
     <title>Teacher´s Horizonte</title>
 </head>
 <body>
+    <!-- Aqui comienza el navegador vertical -->
+
    <div class="navegador">
         <div class="slogan">
              <img src="/assets/images/logo.jpeg" class="logo">
@@ -17,17 +21,32 @@
             </div>
         </div>
         <ul class="navegando">
-            <li class="one">Home</li>
-            <li class="two" onmouseover="mostrarElemento()" onmouseout="ocultarElemento()">Discipulados
-                <ul id="submenu">
-                   <li class="three">Cimientos de la Fe</li>
-                   <li class="four">Vida de Cristo</li>
-                </ul>
-            </li>
-            <li class="five">Asistencia</li>
-            <li class="six">Recursos</li>
+            <div class="envoltura">
+                <img src="/assets/images/icons8-casa-50 (1).png" class="home">
+                <li class="one">Home</li>
+            </div>
+            <div class="envoltura">
+                <img src="/assets/images/icons8-santa-biblia-50.png" class="home">
+                <li class="two" onmouseover="mostrarElemento()" onmouseout="ocultarElemento()">Discipulados
+                    <ul id="submenu">
+                       <li class="three">Cimientos de la Fe</li>
+                       <li class="four">Vida de Cristo</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="envoltura">
+                <img src="/assets/images/icons8-llamada-de-conferencia-64.png" class="home">
+                <li class="five">Asistencia</li>
+            </div>
+            <div class="envoltura">
+                <img src="/assets/images/icons8-carpeta-30.png" class="home">
+                <li class="six">Recursos</li>
+            </div>
         </ul>
    </div>
+
+   <!-- Aqui termina el navegador vertical-->
+
 
 
 
